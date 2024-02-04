@@ -1,1 +1,29 @@
 https://quicksounds.com/library/sounds/hawk   - mp3 for red-tailed hawk
+https://www.hawkmountain.org/about-hawk-mountain-sanctuary about
+
+
+website for photo, video, mp3
+Freepik: This website offers a collection of over 99,000 vectors, stock photos, and PSD files of Red-tailed Hawks for free download.
+
+https://www.freepik.com/free-photos-vectors/red-tailed-hawk/2
+
+PNGTree: PNGTree provides a collection of high-resolution Red-tailed Hawk pictures and stock photos for free download, suitable for commercial use.
+https://pngtree.com/free-backgrounds-photos/red-tailed-hawk-pictures
+
+____$$$$$$$$$$$$PNG has the best pictures $$$$$$$$$$
+Vecteezy: Vecteezy offers a variety of Red-tailed Hawk stock images, photos, and wallpapers for royalty-free download from creative contributors.
+https://www.vecteezy.com/free-photos/red-tailed-hawk?page=2
+
+index page
+
+-table citation
+The information for the table can be cited as follows:
+Red-tailed Hawk Subspecies Guide. Available at: https://redtailedhawkproject.org/subspecies-guide/. [Accessed: February 4, 2024].
+This citation acknowledges the source of the information used to create the table, allowing for proper credit and verification of the data.
+
+- validation of index  - https://validator.w3.org/nu/#textarea   -----the best
+https://appdevtools.com/html-validator
+- abb, definition, figure figure caption
+-quotation and citation
+-date and time
+- inline text

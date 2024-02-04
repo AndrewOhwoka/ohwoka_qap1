@@ -23,6 +23,7 @@ header {
   background-color: white;
   text-align: center;
 }
+
 footer {
   background-color: grey;
   color: white;
@@ -33,7 +34,7 @@ footer {
 main {
   background-color: white;
   color: black;
-  height: 1050px;
+  height: 1100px;
   padding: 12px;
   text-align: justify;
   font-size: 16px;
@@ -62,6 +63,17 @@ li a {
   margin: 10px;
   flex: 1 100%;
 }
+/* CSS to style the table */
+.table-style {
+  width: 100%;
+  border-collapse: collapse; 
+}
+.table-style, .table-style th, .table-style td {
+  border: 2px solid black;
+}
+
+
+
 @media all and (min-width: 800px) {
   main {
     flex: 3;
@@ -75,7 +87,9 @@ li a {
   display: flex;
 }
 img {
-  margin: auto;
+  margin-left:10px;
+  margin-right:10px;
+  /* margin: auto; */
 }
 
 .socialmedialicon {
