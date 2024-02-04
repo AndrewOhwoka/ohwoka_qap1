@@ -88,3 +88,17 @@ img {
 .socialmedialicon:hover {
   color: dark;
 }
+
+form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  font-family: Arial, sans-serif;
+ 
+}
+
+.addressArea  {
+  text-align: center;
+}
