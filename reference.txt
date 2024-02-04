@@ -27,3 +27,9 @@ https://appdevtools.com/html-validator
 -quotation and citation
 -date and time
 - inline text
+
+media query
+https://www.youtube.com/watch?v=2KL-z9A56SQ
+https://www.youtube.com/watch?v=yU7jJ3NbPdA
+
+https://www.youtube.com/watch?v=K24lUqcT0Ms    *****best

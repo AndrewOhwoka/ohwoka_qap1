@@ -66,29 +66,34 @@ li a {
 /* CSS to style the table */
 .table-style {
   width: 100%;
-  border-collapse: collapse; 
+  border-collapse: collapse;
 }
-.table-style, .table-style th, .table-style td {
+.table-style,
+.table-style th,
+.table-style td {
   border: 2px solid black;
 }
 
+/* CSS to style the iframe */
+.iframe {
+  border: none; /* Remove the border */
+}
 
-
-@media all and (min-width: 800px) {
+/* @media all and (min-width: 800px) {
   main {
     flex: 3;
   }
   footer {
     flex: 4;
   }
-}
+} */
 
 .image-container {
   display: flex;
 }
 img {
-  margin-left:10px;
-  margin-right:10px;
+  margin-left: 10px;
+  margin-right: 10px;
   /* margin: auto; */
 }
 
@@ -110,9 +115,29 @@ form {
   background: #fff;
   border-radius: 8px;
   font-family: Arial, sans-serif;
- 
 }
 
-.addressArea  {
+.addressArea {
   text-align: center;
 }
+
+
+/* The desktop-first pre-defined media queries: */
+
+/* 2xl
+@media (max-width: 1536px) {}
+
+/* xl */
+/* @media (max-width: 1280px) {} */
+
+/* lg */
+/* @media (max-width: 1024px) {} */
+
+/* md */
+/* @media (max-width: 768px) {} */
+
+/* sm */
+/* @media (max-width: 640px) {} */
+
+/* xs */
+/* @media (max-width: 475px) {} */ 
