@@ -33,3 +33,89 @@ https://www.youtube.com/watch?v=2KL-z9A56SQ
 https://www.youtube.com/watch?v=yU7jJ3NbPdA
 
 https://www.youtube.com/watch?v=K24lUqcT0Ms    *****best
+
+flex box
+@media css responsive design
+
+https://www.youtube.com/watch?v=nw4BE9KdUm8     ***** best flex structure
+
+https://www.youtube.com/watch?v=S0a7PEOi0do     ****** best flex structure
+
+
+
+
+
+
+
+
+
+html, body {
+    font-size: 16px;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0; /* Ensure no default margin */
+    padding: 0; /* Ensure no default padding */
+}
+
+/* Assuming you have a .container div wrapping your content */
+.wrapper {
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+}
+
+.nav {
+    background-color: plum;
+    height: 80px;
+    margin: 0px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+.header {
+    background-color: tomato;
+    height: 120px;
+    padding: 0px;
+    font-size: 1rem;
+}
+
+.main {
+    background-color: greenyellow;
+    /* Use min-height instead of height to allow expansion */
+    min-height: 1250px;
+    padding: 0px;
+    font-size: 1rem;
+    text-align: justify;
+}
+
+.footer {
+    background-color: skyblue;
+    height: 80px;
+    font-size: 1rem;
+    text-align: center;
+}
+
+@media all and (min-width: 800px) {
+    
+    .wrapper {
+        flex-direction: column; /* Stacks items vertically */
+    }
+    .main {
+        flex: 2; /* Takes twice the space of .footer if you want to keep the flex property */
+        order: 1;
+    }
+    .footer {
+        order: 2; /* Ensure proper ordering */
+    }
+}
+
+
+
+
+link for font
+
+https://www.onlinewebfonts.com/download/1e44faec07b8b81f60a3215d76bd0086
+
+social media link
+this first-
+https://cdnjs.com/libraries/font-awesome
+then this -
+https://fontawesome.com/icons/twitter?f=brands&s=solid

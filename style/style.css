@@ -1,77 +1,130 @@
-* {
-  box-sizing: border-box;
-  /* display: flex;
-  flex-wrap: wrap; */
-  margin: 0;
-  padding: 0;
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+html {
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 0; /* Ensure no default margin */
+  padding: 0; /* Ensure no default padding */
 }
 
 body {
   background-color: white;
-  font-family: "Times New Roman", Times, serif;
-  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  margin: 40px;
 }
 
 nav {
   background-color: grey;
   color: white;
   text-align: center;
-  font-size: 20px;
-  height: 80px;
+  font-size: 1.5rem;
+  min-height: 80px;
+  padding-top: 20px;
 }
 header {
   background-color: white;
   text-align: center;
+  /* min-height: 300px; */
+  font-size: 1rem;
 }
 
 footer {
   background-color: grey;
   color: white;
-
   text-align: center;
   height: 80px;
+}
+.top {
+  text-align: center;
+  font-size: 0.95rem;
+  font-family: "Roboto", sans-serif;
+  font-weight: 800;
+}
+
+.mp3Div {
+  margin-left: 0px;
+  padding-left: 0px;
 }
 main {
   background-color: white;
   color: black;
-  height: 1100px;
-  padding: 12px;
+  min-height: 900px;
   text-align: justify;
-  font-size: 16px;
-  line-height: 1.2em;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+h2 {
+  font-size: 1.3rem;
+}
+
+h3 {
+  font-size: 1.2rem;
 }
 
 ul {
   margin-left: 17px;
 }
-
-li a {
-  display: block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
+/* unvisited link */
+a:link {
   text-decoration: none;
+  color: green;
+}
+/* visited link */
+a:visited {
+  color: maroon;
+}
+/* mouse over link */
+a:hover {
+  text-decoration: underline;
+  color: red;
+}
+/* selected link */
+a:active {
+  color: yellow;
 }
 
+/* Assuming you have a .container div wrapping your content */
 .wrapper {
   display: flex;
-  flex-flow: row wrap;
+  flex-direction: column; /* Stack children vertically */
+}
+
+/* CSS to style the table */
+
+th{
+  background-color: lightgrey;
+  font-size: 1.2rem;
   text-align: center;
 }
-.wrapper > * {
-  padding: 10px;
-  margin: 10px;
-  flex: 1 100%;
-}
-/* CSS to style the table */
+ td{
+  font-size: 1.1rem;
+  text-align: left;
+ 
+ }
+ 
 .table-style {
   width: 100%;
   border-collapse: collapse;
+  
 }
 .table-style,
 .table-style th,
 .table-style td {
-  border: 2px solid black;
+  border: 3px solid black;
 }
 
 /* CSS to style the iframe */
@@ -79,23 +132,37 @@ li a {
   border: none; /* Remove the border */
 }
 
-/* @media all and (min-width: 800px) {
-  main {
-    flex: 3;
-  }
-  footer {
-    flex: 4;
-  }
-} */
-
-.image-container {
+/* CSS to style the image container */
+.video-container {
   display: flex;
 }
-img {
-  margin-left: 10px;
-  margin-right: 10px;
-  /* margin: auto; */
+
+figcaption {
+  font-style: italic;
+  color: gray;
+  font-size: 0.95rem;
 }
+.photographer {
+  font-style: normal;
+  font-size: 0.95rem;
+}
+
+.photographer a {
+  color: red;
+  text-decoration: none;
+}
+
+.photographer a:hover {
+  color: orange;
+  text-decoration: underline;
+}
+
+
+header img {
+  min-width: 100%;
+  height: 350px;
+}
+
 
 .socialmedialicon {
   color: light;
@@ -122,22 +189,16 @@ form {
 }
 
 
-/* The desktop-first pre-defined media queries: */
 
-/* 2xl
-@media (max-width: 1536px) {}
-
-/* xl */
-/* @media (max-width: 1280px) {} */
-
-/* lg */
-/* @media (max-width: 1024px) {} */
-
-/* md */
-/* @media (max-width: 768px) {} */
-
-/* sm */
-/* @media (max-width: 640px) {} */
-
-/* xs */
-/* @media (max-width: 475px) {} */ 
+@media all and (min-width: 800px) {
+  .wrapper {
+    flex-direction: column; /* Stacks items vertically */
+  }
+  .main {
+    flex: 2; /* Takes twice the space of .footer if you want to keep the flex property */
+    order: 1;
+  }
+  .footer {
+    order: 2; /* Ensure proper ordering */
+  }
+}
